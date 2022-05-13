@@ -2,6 +2,7 @@ body {
     font-family: 'Poppins,  Actor, Adamina';
     margin: 5px;
     background-color: white;
+    overflow: scroll;
 }
 
 nav {
@@ -41,6 +42,30 @@ div ul li a {
 
 div ul li a:hover {
     color: red;
-    background-color: aquamarine;
+    background-color: black;
     padding: 10px;
+}
+
+div>.Test-rules {
+    margin-left: 250px;
+    margin-top: 70px;
+}
+
+div #rules-head {
+    font-size: 30px;
+    margin-left: 200px;
+    color: red;
+}
+
+div ol li {
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+div ol {
+    background-color: aqua;
+    border-style: double;
+    margin-right: 320px;
+    margin-left: 40px;
 }
