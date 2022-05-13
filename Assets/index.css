@@ -33,4 +33,10 @@ div button {
     color: white;
     font-weight: 900;
     font-size: large;
+    text-decoration: none;
+}
+
+#login-btn {
+    color: white;
+    text-decoration: none;
 }
