@@ -34,6 +34,7 @@ div button {
     font-weight: 900;
     font-size: large;
     text-decoration: none;
+    border-radius: 10px;
 }
 
 #login-btn {
