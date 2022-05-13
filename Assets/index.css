@@ -1,0 +1,13 @@
+body {
+    font-family: 'Poppins,  Actor, Adamina';
+    margin: 5px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    overflow: scroll;
+}
+
+div #logo {
+    margin-left: 100px;
+    margin-top: 30px;
+}
