@@ -19,7 +19,6 @@ nav {
 
 div ul li {
     display: inline;
-    margin-inline: 20px;
 }
 
 div ul li a {
@@ -68,4 +67,32 @@ div ol {
     border-style: double;
     margin-right: 320px;
     margin-left: 40px;
+}
+
+div .start-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+div #start-button {
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 30px;
+    border-radius: 10px;
+    border-color: blue;
+    background-color: rgb(240, 50, 50);
+}
+
+div #click {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+div #button-content {
+    color: white;
+    text-decoration: none;
 }
