@@ -18,8 +18,19 @@ div .Login-content {
     font-weight: 900;
 }
 
-#Login {
+div #Login {
     font-size: x-large;
     font-weight: 900;
     color: red;
+}
+
+div button {
+    background-color: red;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: 900;
+    font-size: large;
 }
