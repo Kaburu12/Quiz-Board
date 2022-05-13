@@ -11,3 +11,15 @@ div #logo {
     margin-left: 100px;
     margin-top: 30px;
 }
+
+div .Login-content {
+    margin-left: 120px;
+    font-size: large;
+    font-weight: 900;
+}
+
+#Login {
+    font-size: x-large;
+    font-weight: 900;
+    color: red;
+}
