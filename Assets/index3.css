@@ -47,8 +47,9 @@ div ul li a:hover {
 
 .questions {
     display: flex;
-    justify-content: center;
     margin-top: 30px;
+    flex-wrap: wrap;
+    margin-left: 100px;
 }
 
 .quest-container {
@@ -62,6 +63,7 @@ div ul li a:hover {
     border-color: aqua;
     border-radius: 10px;
     box-shadow: 5px 5px 5px grey;
+    margin-bottom: 20px;
 }
 
 #quest-header {
@@ -80,7 +82,7 @@ div #quest {
     font-style: italic;
 }
 
-div #continue-btn {
+div button {
     margin-top: 20px;
     margin-bottom: 20px;
     margin-right: 10px;
@@ -92,6 +94,13 @@ div #continue-btn {
     background-color: red;
     color: white;
     border-radius: 10px;
+}
+
+button:hover {
+    color: black;
+    transition: 2ms;
+    cursor: pointer;
+    transition: 20ms;
 }
 
 div #total-quest {
