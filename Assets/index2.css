@@ -97,3 +97,16 @@ div #button-content {
     color: white;
     text-decoration: none;
 }
+
+footer {
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    margin-top: 20px;
+}
