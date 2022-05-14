@@ -50,6 +50,7 @@ div ul li a:hover {
     margin-top: 30px;
     flex-wrap: wrap;
     margin-left: 100px;
+    margin-bottom: 30px;
 }
 
 .quest-container {
@@ -118,4 +119,16 @@ div #total-quest {
 div button a {
     text-decoration: none;
     color: white;
+}
+
+footer {
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 30px;
+    padding-top: 20px;
 }
