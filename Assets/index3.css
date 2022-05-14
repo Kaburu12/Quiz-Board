@@ -114,3 +114,8 @@ div #total-quest {
 .choices {
     font-size: 20px;
 }
+
+div button a {
+    text-decoration: none;
+    color: white;
+}
