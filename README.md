@@ -13,6 +13,7 @@ This is a project based on a website that provides online quiz for a secondary s
 6)Publisihing of the project on Github using Github-pages.
 
 ## Live-Link
+https://kaburu12.github.io/Quiz-Board/
 
 ## Technology-Used
 HTML tags and elements -which was used to develope the structure of the pages. 
