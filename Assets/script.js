@@ -68,4 +68,5 @@ function result() {
     if (document.getElementById("correct-answer6").checked) { score++; };
 
     document.write("your Total score is :" + score);
+    alert("Get To See Your results");
 }
