@@ -61,6 +61,7 @@
                 </form>
             </div>
             <div id="total-quest"> 1 of 6</div>
+            <button class="next" onclick="next(1)">NEXT</button>
         </div>
         </div>
 
@@ -84,12 +85,13 @@
                 </form>
             </div>
             <div id="total-quest"> 2 of 6</div>
+            <button class="next" onclick="next(2)">NEXT</button>
         </div>
         </div>
 
         <div class="quest-container">
             <div id="quest-header">Question view</div>
-            <div id="quest">3.Name different types of errors in the execution of a program?</div>
+            <div id="quest">3.Which error is not among different types of errors in the execution of a program?</div>
             <div class="choices">
                 <form>
                     <div>
@@ -106,6 +108,7 @@
                         <label for="A">Logical errors</label></div>
                 </form>
                 <div id="total-quest"> 3 of 6</div>
+                <button class="next" onclick="next(3)">NEXT</button>
             </div>
         </div>
 
@@ -128,6 +131,7 @@
                         <label for="A">color</label></div>
                 </form>
                 <div id="total-quest"> 4 of 6</div>
+                <button class="next" onclick="next(4)">NEXT</button>
             </div>
         </div>
 
@@ -143,13 +147,14 @@
                         <input type="radio" name="answer" id="">
                         <label for="A">ram</label></div>
                     <div>
-                        <input type="radio" name="answer" id="correct-answer5">
+                        <input type="radio" name="answer" id="">
                         <label for="A">monitor</label></div>
                     <div>
-                        <input type="radio" name="answer" id="">
+                        <input type="radio" name="answer" id="correct-answer5">
                         <label for="A">mice</label></div>
                 </form>
                 <div id="total-quest"> 5 of 6</div>
+                <button class="next" onclick="next(5)">NEXT</button>
             </div>
         </div>
 
@@ -172,8 +177,8 @@
                         <label for="A">HTML selector</label></div>
                 </form>
                 <div id="total-quest"> 6 of 6</div>
-                <button> <a href="./index2.html">Exit Quiz</a> </button>
-                <button type="submit" name="submit" value="SUBMIT" id="result" onclick="result()">SUBMIT</button>
+                <button><a href="./index2.html">Exit Quiz</a> </button>
+                <button type="submit" name="submit" value="SUBMIT" id="btn" onclick="result()">SUBMIT</button>
             </div>
         </div>
 
