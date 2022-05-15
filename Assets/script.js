@@ -18,7 +18,7 @@
     },
 
     {
-        question: "Name different types of errors in the execution of a program?",
+        question: "Which error is not among different types of errors in the execution of a program?",
         a: "Syntax errors",
         b: "Runtime errors",
         c: "Coding errors",
@@ -56,7 +56,7 @@
 
 
 
-
+//Result function
 function result() {
     var score = 0;
 
@@ -69,4 +69,11 @@ function result() {
 
     document.write("your Total score is :" + score);
     alert("Get To See Your results");
+}
+
+//Next function
+function next(id) {
+    document.getElementsByClassName("quest-container")[id - 1].style.display = "none";
+    document.getElementsByClassName("quest-container")[id].style.display = "block";
+
 }
