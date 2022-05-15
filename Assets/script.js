@@ -59,6 +59,8 @@
 //Result function
 function result() {
     var score = 0;
+    var percentage = 0;
+    var calculate_percent = 0;
 
     if (document.getElementById("correct-answer1").checked) { score++; };
     if (document.getElementById("correct-answer2").checked) { score++; };
@@ -67,8 +69,21 @@ function result() {
     if (document.getElementById("correct-answer5").checked) { score++; };
     if (document.getElementById("correct-answer6").checked) { score++; };
 
-    document.write("your Total score is :" + score);
+    document.write("Your Total Score is :" + " " + score);
     alert("Get To See Your results");
+
+    //Calculating scores
+
+    calculate_percent = score / 6;
+    percentage = score / 6 * 100;
+
+    if (percentage >= 80) {
+        document.write(" " + "[Performed Excellently]");
+    } else if (percentage >= 50 && percentage <= 80) {
+        document.write(" " + "[Passed Fairly]");
+    } else {
+        document.write(" " + "[Performed Poorly , Please Retake The Quiz ]");
+    }
 }
 
 //Next function
