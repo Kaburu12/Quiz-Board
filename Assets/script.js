@@ -59,6 +59,7 @@
 //Result function
 function result() {
     var score = 0;
+    var percentage_score = score / 6 * 100;
 
     if (document.getElementById("correct-answer1").checked) { score++; };
     if (document.getElementById("correct-answer2").checked) { score++; };
