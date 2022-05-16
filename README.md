@@ -33,6 +33,12 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 ## Author
 By Kaburu Michael .
 
+## Top Page
+![image](./Assets/images/quiz2.png)
+
+## Quiz Page
+! [image](./Assets/images/quiz1.png)
+
 ## Support-And-Contact-Details
 Email address: kabururm@gmail.com Slack:Michael Kaburu
 Github :Kaburu12
