@@ -37,7 +37,7 @@ By Kaburu Michael .
 ![image](./Assets/images/quiz2.png)
 
 ## Quiz Page
-! [image](./Assets/images/quiz1.png)
+![image](./Assets/images/quiz1.png)
 
 ## Support-And-Contact-Details
 Email address: kabururm@gmail.com Slack:Michael Kaburu
